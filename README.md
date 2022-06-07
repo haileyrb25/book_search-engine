@@ -3,6 +3,8 @@
 ## Description
 For this assignment, we took a functioning code that used a restful API and transformed it into a full MERN stack app. Even though most of the code was already complete, getting it to work properly was no easy feat.
 
+Deployed version can be found [Here]()
+
 
 ## Your Task
 Your assignment this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
@@ -46,3 +48,11 @@ This week, you’ll take starter code with a fully functioning Google Books API 
 - THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
 
 ## Demo
+<!-- ![](./assets/images/age.gif)
+![](./assets/images/drink.gif)
+![](./assets/images/bar.gif) -->
+
+# Pictures
+<!-- ![](./assets/images/agemodal.jpg)
+![](./assets/images/screenshot.jpg)
+![](./assets/images/favescreenshot.jpg) -->
