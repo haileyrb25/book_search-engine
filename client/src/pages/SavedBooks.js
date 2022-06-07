@@ -5,6 +5,16 @@ import { getMe, deleteBook } from '../utils/API';
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
+//remove 'useEffect()' hook that sets the state for 'UserData'
+
+//instead, use the 'useQuery()' hook to execute the 'GET_ME' query on load and save it to a variable name 'userData'
+
+//use the 'useMutation()' hook to execute the "REMOVE_BOOK" mutation in the 'handleDeleteBook()' function instead of the 'deleteBook()' function that's imported from API file. (make sure you keep the 'removeBookId()' function in place)
+
+
+
+
+
 const SavedBooks = () => {
   const [userData, setUserData] = useState({});
 
