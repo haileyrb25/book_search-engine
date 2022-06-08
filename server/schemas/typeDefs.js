@@ -1,5 +1,3 @@
-//look at readme for write out- getting started
-
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
