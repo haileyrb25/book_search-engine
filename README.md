@@ -52,7 +52,7 @@ This week, you’ll take starter code with a fully functioning Google Books API 
 ![](./assets/images/drink.gif)
 ![](./assets/images/bar.gif) -->
 
-# Pictures
+## Pictures
 <!-- ![](./assets/images/agemodal.jpg)
 ![](./assets/images/screenshot.jpg)
 ![](./assets/images/favescreenshot.jpg) -->
