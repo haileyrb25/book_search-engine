@@ -28,7 +28,8 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <>
+      <Router>
+        <>
         <Navbar />
         <Routes>
           <Route 
@@ -41,10 +42,10 @@ function App() {
           />
           <Route 
             path='*'
-            element={<h1 className='display-2'>Wrong page!</h1>}
-          />
-        </Routes>
-      </>
+            element={<h1 className='display-2'>Wrong page!</h1>} />
+          </Routes>
+          </>
+        </Router>
     </ApolloProvider>
   );
 }
