@@ -31,9 +31,11 @@ const resolvers = {
 
       return { token, user };
     },
-    addUser: async (parent, { username, email, password }) => {
-      const user = await User.create({ username, email, password });
+    addUser: async (parent, args) => {
+      const user = await User.create(args);
+      console.log("user", user)
       const token = signToken(user);
+      console.log("token", token)
       return { token, user };
     },
     saveBook: async (parent, { bookId, image, title, authors, description }, context) => {
@@ -49,7 +51,7 @@ const resolvers = {
 
       throw new AuthenticationError("Please log in to use this feature!");
     },
-    deleteBook: async (parent, { _id }, context) => {
+    removeBook: async (parent, { _id }, context) => {
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
